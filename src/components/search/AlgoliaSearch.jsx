@@ -6,12 +6,12 @@ import { Configure, InstantSearch, } from 'react-instantsearch-dom'
 import { findResultsState } from 'react-instantsearch-dom/server'
 import { SearchResults } from './SearchResults'
 import { CustomSearchBox } from './Connector'
-import search from '../../../blog.config'
+import blogConfig from '../../../blog.config'
 
-const indexName = search.algolia.indexName
+const indexName = blogConfig.algolia.indexName
 const searchClient = algoliasearch(
-  search.algolia.appId,
-  search.algolia.searchOnlyApiKey
+  blogConfig.algolia.appId,
+  blogConfig.algolia.searchOnlyApiKey
 )
 
 const updateAfter = 700

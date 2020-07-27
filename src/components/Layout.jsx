@@ -47,7 +47,7 @@ export function Layout(props) {
         {props.children}
       </main>
       <nav className="nav">
-        <a href="#" className="nav__link" aria-label='Open Left Drawer for tool' onClick={toggleDrawer('left', true)}>
+        <a className="nav__link" aria-label='Open Left Drawer for tool' onClick={toggleDrawer('left', true)}>
           <i className="material-icons nav__icon">dashboard</i>
           <span className="nav__text">Tool</span>
         </a>
@@ -60,7 +60,7 @@ export function Layout(props) {
         <Link href='/tags' passHref>
           <MaterialButton href='/tags' icon='local_offer' text='Tags' key='tags' />
         </Link>
-        <a href="#" className="nav__link" aria-label='Open Right Drawer for search' onClick={toggleDrawer('right', true)}>
+        <a className="nav__link" aria-label='Open Right Drawer for search' onClick={toggleDrawer('right', true)}>
           <i className="material-icons nav__icon">search</i>
           <span className="nav__text">search</span>
         </a>
