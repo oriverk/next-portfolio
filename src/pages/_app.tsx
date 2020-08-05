@@ -58,6 +58,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           box-sizing: border-box;
         }
 
+        /* related to react-icons */
+        .react-icons{
+          vertical-align: middle;
+        }
+
         body {
           margin: 0;
           color: #EEE;
