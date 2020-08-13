@@ -39,7 +39,7 @@ export default function Post({ postData
 }) {
   const tags = postData.tags
   const pageTags = tags ? tags.join(' ') : 'React, Next.js'
-  // const pageImage = postData.image ? postData.image : '/assets/prtsc700.jpg'
+  // const pageImage = postData.image ? postData.image : 'prtsc-1000.webp'
   // const ogImage:string = getFetchPath(postData.title, 'dark', 0, tags)
   return (
     <React.Fragment>

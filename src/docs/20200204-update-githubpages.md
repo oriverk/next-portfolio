@@ -3,12 +3,11 @@ create: '2020-02-04'
 author: Kawano Yudai
 title: GithubPages のメジャーアップデートをした。
 tags: [githubpages, ruby, jekyll]
-image: 'assets/posts/202002/githubpages2home.jpg'
+image: 'assets/posts/202002/githubpages2home.webp'
 ---
 
 <picture>
   <source srcSet="/assets/posts/202002/githubpages2home.webp" type="image/webp" />
-  <img src="/assets/posts/202002/githubpages2home.jpg" alt="jekyll" />
 </picture>
 
 ## What I did

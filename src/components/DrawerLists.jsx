@@ -9,7 +9,6 @@ const DrawerLists = ({children}) => {
           <div className='profileImgContainer'>
             <picture>
               <source srcSet='/assets/human192x192.webp' type='image/webp' className='profileImg' />
-              <img src='/assets/human192x192.png' alt='avatar' className='profileImg' />
             </picture>
           </div>
           <Divider />

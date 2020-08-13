@@ -4,7 +4,7 @@ update: '2020-04-07'
 author: Kawano Yudai
 title: '宮崎県 COVID-19 対策サイトの OSS 活動に参加した。'
 tags: [oss, vue]
-image: '/assets/posts/202003/miyazaki-oss1.jpg'
+image: 'assets/posts/202003/miyazaki-oss1.webp'
 ---
 
 from [Qita: 宮崎県COVID-19対策サイトを見つけ、出身者として何かしたいと思ったから、した。](https://qiita.com/OriverK/items/91429a32e6a8c191a1a6)
@@ -51,12 +51,10 @@ yarn dev
 
 <picture>
   <source srcSet="/assets/posts/202003/miyazaki-oss.webp" type="image/webp" />
-  <img src="/assets/posts/202003/miyazaki-oss.jpg" alt="localhost" />
 </picture>
 
 <picture>
   <source srcSet="/assets/posts/202003/miyazaki-oss1.webp" type="image/webp" />
-  <img src="/assets/posts/202003/miyazaki-oss1.jpg" alt="miyazaki-oss" />
 </picture>
 
 ## What I did
@@ -69,7 +67,6 @@ yarn dev
 
 <picture>
   <source srcSet="/assets/posts/202003/miyazaki-oss2.webp" type="image/webp" />
-  <img src="/assets/posts/202003/miyazaki-oss2.jpg" alt="localhost" />
 </picture>
 
 東京都verから宮崎県verにした際の地域表記変更の漏れであり、1文字の修正だった。
@@ -95,14 +92,12 @@ PRの機会は初めてだったので、下を参照しながら行った。
 
 <picture>
   <source srcSet="/assets/posts/202003/miyazaki-oss3.webp" type="image/webp" />
-  <img src="/assets/posts/202003/miyazaki-oss3.jpg" alt="localhost" />
 </picture>
 
 無事にpull requestがmergeされ、OSS活動(?)の実績解除となりました。
 
 <picture>
   <source srcSet="/assets/posts/202003/miyazaki-oss4.webp" type="image/webp" />
-  <img src="/assets/posts/202003/miyazaki-oss4.jpg" alt="localhost" />
 </picture>
 
 ## What I wanna do 

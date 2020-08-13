@@ -3,8 +3,8 @@ create: '2020-05-26'
 update: '2020-07-14'
 author: Kawano Yudai
 title: 'Next.js でポートフォリオサイトを作成した'
-tags: [typescript, React, next, remark]
-image: '/assets/prtsc-1000.jpg'
+tags: [typescript, react, next, remark]
+image: '/assets/prtsc-1000.webp'
 ---
 
 ## はじめに
@@ -35,7 +35,6 @@ React とNext.js のtutorial と docs を一通りやりました。
 
 <video autoplay loop muted playsinline>  
   <source src='/assets/posts/202005/next-portfolio-prtsc.webm' type='video/webm'>  
-  <img src='/assets/posts/202005/next-portfolio-prtsc.gif' alt='screen-shot of next.js portfolio' />
 </video>
 
 lighthouse
@@ -91,7 +90,6 @@ yarn create next-app next-portfolio
 
 <picture>
   <source srcSet='/assets/posts/202005/next1.webp' type='image/webp' />
-  <img src='/assets/posts/202005/next1.jpg' alt='Hello Next.js' />
 </picture>
 
 
@@ -380,7 +378,6 @@ export default function Post(){
 
 <picture>
   <source srcSet='/assets/posts/202005/next2.webp' type='image/webp' />
-  <img src='/assets/posts/202005/next2.jpg' alt='dynamic route' />
 </picture>
 
 `dynamic route`と`Link( next/link )`を併用する時は、`href`に合わせて`as`も使う。
@@ -467,7 +464,6 @@ export async function getPostData(id) {
 
 <picture>
   <source srcSet='/assets/posts/202005/next5.webp' type='image/webp' />
-  <img src='/assets/posts/202005/next5.jpg' alt='next.js syntax-highlight' />
 </picture>
 
 以前に[rubyとjekyllで作ったgithubpages](https://oriverk.github.io/blog/confirm-font-size)と比較して、syntax-highlightが粗いので改善が必要

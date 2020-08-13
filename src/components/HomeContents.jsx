@@ -2,9 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { NoImage } from '../utils'
 import css from 'styled-jsx/css'
-
 import { HomeIcons } from './IconsWrapper'
-
 
 const containerStyle = css`
   section {
@@ -120,7 +118,6 @@ export function About() {
           <div className='left'>
             <picture>
               <source srcSet='/assets/LongRidge500.webp' type='image/webp' className='contentImg' />
-              <img src='/assets/LongRidge500.jpg' alt='the secenary from Long-Ridge-Lookout in Adelaide' className='contentImg' />
             </picture>
           </div>
           <div className='right'>
@@ -141,7 +138,7 @@ export function About() {
         {containerStyle}
       </style>
     </>    
-  );
+  )
 }
 
 export function History() {
@@ -168,7 +165,6 @@ export function History() {
             <div className='left'>
               <picture>
                 <source srcSet='/assets/weeding500.webp' type='image/webp' className='contentImg' />
-                <img src='/assets/weeding500.jpg' alt='photograph of weeding robot' className='contentImg' />
               </picture>
             </div>
             <div className='right'>
@@ -181,7 +177,6 @@ export function History() {
             <div className='left'>
               <picture>
                 <source srcSet='/assets/miyazakiUniv.webp' type='image/webp' className='contentImg' />
-                <img src='/assets/miyazakiUniv.jpg' alt='miyazaki university' className='contentImg' />
               </picture>
             </div>
             <div className='right'>
@@ -209,7 +204,6 @@ export function Works() {
             <div className='left'>
               <picture>
                 <source srcSet='/assets/prtsc-500.webp' type='image/webp' className='contentImg' />
-                <img src='/assets/prtsc-500.jpg' alt='screen-shot' className='contentImg' />
               </picture>
             </div>
             <div className='right'>
@@ -226,7 +220,6 @@ export function Works() {
             <div className='left'>
               <picture>
                 <source srcSet='/assets/posts/202003/miyazaki-oss1.webp' type='image/webp' className='contentImg' />
-                <img src='/assets/posts/202003/miyazaki-oss1.jpg' alt='screen-shot' className='contentImg' />
               </picture>
             </div>
             <div className='right'>
@@ -244,7 +237,6 @@ export function Works() {
             <div className='left'>
               <picture>
                 <source srcSet='/assets/codr500.webp' type='image/webp' className='contentImg' />
-                <img src='/assets/codr500.jpg' alt='screen-shot' className='contentImg' />
               </picture>
             </div>
             <div className='right'>
@@ -261,7 +253,6 @@ export function Works() {
             <div className='left'>
               <picture>
                 <source srcSet='/assets/githubPages1st500.webp' type='image/webp' className='contentImg' />
-                <img src='/assets/githubPages1st500.jpg' alt='screen-shot' className='contentImg' />
               </picture>
             </div>
             <div className='right'>
@@ -295,5 +286,5 @@ export function Works() {
         {containerStyle}
       </style>
     </>  
-  );
+  )
 }

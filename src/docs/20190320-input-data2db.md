@@ -4,7 +4,7 @@ update: '2019-12-04'
 author: Kawano Yudai
 title: 'Day 10: DB へ情報入力、ページに出力'
 tags: [ruby, rails, mysql]
-image: '/assets/posts/201905/cebu3.png'
+image: '/assets/posts/201905/cebu3.webp'
 ---
 
 from [Qiita: マスターデータ（DBへ情報入力、ページに出力](https://qiita.com/OriverK/items/b7eae8f195d9d2111ea4)
@@ -18,7 +18,6 @@ Rails:5.2.2
 
 <picture>
   <source srcSet="/assets/posts/201905/cebu3.webp" type="image/webp" />
-  <img src="/assets/posts/201905/cebu3.jpg" alt="data table" />
 </picture>
 
 ## 流れ

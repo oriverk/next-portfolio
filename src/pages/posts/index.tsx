@@ -40,7 +40,7 @@ export default function ({
           <meta name='description' content={blogConfig.desc} />
           <meta property='og:title' content={`Blog | ${blogConfig.baseName}`} />
           <meta property='og:description' content={blogConfig.desc} />
-          <meta property='og:image' content={`${blogConfig.baseUrl}/assets/prtsc700.jpg`} />
+          <meta property='og:image' content={`${blogConfig.baseUrl}/prtsc-1000.webp`} />
           <meta property='og:url' content={`${blogConfig.baseUrl}/posts`} />
         </Head>
         <article className='content'>

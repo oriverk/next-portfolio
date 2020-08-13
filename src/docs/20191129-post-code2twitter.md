@@ -4,7 +4,7 @@ update: '2020-03-10'
 author: Kawano Yudai
 title: 'Twitter に見栄え良くコード投稿したかった'
 tags: [ruby, rails, aws]
-image: '/assets/codr700.jpg'
+image: '/assets/codr700.webp'
 ---
 
 from [Qiita: Twitterにコードを身えばよく投稿したい](https://qiita.com/OriverK/items/df41ec6b57b40a06a64d#comments)
@@ -24,7 +24,6 @@ from [Qiita: Twitterにコードを身えばよく投稿したい](https://qiita
 
 <picture>
   <source srcSet="/assets/codr700.webp" type="image/webp" />
-  <img src="/assets/codr700.jpg" alt="screen-shot from this webpage" />
 </picture>
 
 ### 作成の過程で収穫物

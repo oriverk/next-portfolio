@@ -4,7 +4,7 @@ update: '2019-12-04'
 author: Kawano Yudai
 title: 'Day 5： first time to use Bootstrap'
 tags: [ruby, rails, bootstrap]
-image: '/assets/posts/201903/bootstrap1.jpg'
+image: '/assets/posts/201903/bootstrap1.webp'
 ---
 
 from [Qiita：Bootstrapを初めて触ってみた](https://qiita.com/OriverK/items/7cff4e36a2d19759cccb)
@@ -103,7 +103,6 @@ end
 
 <picture>
   <source srcSet="/assets/posts/201903/bootstrap1.webp" type="image/webp" />
-  <img src="/assets/posts/201903/bootstrap1.jpg" alt="bootstrap table" />
 </picture>
 
 

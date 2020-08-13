@@ -13,7 +13,7 @@ export default function Custom404() {
         <meta name='description' content={blogConfig.desc} />
         <meta property='og:title' content={`404 | ${blogConfig.baseName}`} />
         <meta property='og:description' content={blogConfig.desc} />
-        <meta property='og:image' content={`${blogConfig.baseUrl}/assets/prtsc700.jpg`} />
+        <meta property='og:image' content={`${blogConfig.baseUrl}/assets/prtsc-1000.webp`} />
         <meta property='og:url' content={`${blogConfig.baseUrl}/404`} />
       </Head>
       <div style={{ textAlign: 'center' }}>

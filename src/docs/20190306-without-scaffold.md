@@ -4,7 +4,7 @@ update: '2019-12-04'
 author: Kawano Yudai
 title: 'Day 2 ~ 8：Scaffold なしでの掲示板作成'
 tags: [Ubuntu, Ruby, Rails]
-image: '/assets/posts/201903/scaffold6.jpg'
+image: '/assets/posts/201903/scaffold6.webp'
 ---
 
 from Qiita:
@@ -321,7 +321,6 @@ end
 
 <picture>
   <source srcSet="/assets/posts/201903/scaffold1.webp" type="image/webp" />
-  <img src="/assets/posts/201903/scaffold1.jpg" alt="scaffold first" />
 </picture>
 
 ### showアクション
@@ -402,7 +401,6 @@ end
 
 <picture>
   <source srcSet="/assets/posts/201903/scaffold2.webp" type="image/webp" />
-  <img src="/assets/posts/201903/scaffold2.jpg" alt="male / female enum" />
 </picture>
 
 ラジオボタンに変更
@@ -420,7 +418,6 @@ end
 
 <picture>
   <source srcSet="/assets/posts/201903/scaffold3.webp" type="image/webp" />
-  <img src="/assets/posts/201903/scaffold3.jpg" alt="change to radio button" />
 </picture>
 
 
@@ -442,7 +439,6 @@ User.find_by(name: "foo")
 
 <picture>
   <source srcSet="/assets/posts/201903/scaffold5.webp" type="image/webp" />
-  <img src="/assets/posts/201903/scaffold5.jpg" alt="changed to radiobutton" />
 </picture>
 
 
@@ -664,5 +660,4 @@ end
 
 <picture>
   <source srcSet="/assets/posts/201903/scaffold6.webp" type="image/webp" />
-  <img src="/assets/posts/201903/scaffold6.jpg" alt="change result" />
 </picture>

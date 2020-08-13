@@ -3,8 +3,8 @@ create: '2019-08-18'
 update: '2019-12-01'
 author: Kawano Yudai
 title: 'GithubPages で Jekyll を使ってみよう'
-tags: [githubpages, Ruby, jekyll]
-image: '/assets/posts/201908/jekyll1.jpg'
+tags: [githubpages, ruby, jekyll]
+image: '/assets/posts/201908/jekyll1.webp'
 ---
 
 from [Qiita: GithubPagesでjekyllを使ってみよう](https://qiita.com/OriverK/items/ce48102c66c9fa97b33e)より
@@ -18,8 +18,7 @@ GithubPagesJekyllを利用し、静的ページを作成した。
     - remote theme：[fongandrew / hydeout](https://github.com/fongandrew/hydeout)
 
 <picture>
-  <source srcSet="/assets/posts/201908/jekyll1.webp" type="image/webp" />
-  <img src="/assets/posts/201908/jekyll1.jpg" alt="jekyll" />
+  <source srcset="/assets/posts/201908/jekyll1.webp" type="image/webp" />
 </picture>
 
 - 20191206：デザイン等変更
@@ -244,8 +243,7 @@ githubに上げて完了。
 ### sidebar-nav-link
 
 <picture>
-  <source srcSet="/assets/posts/201908/jekyll2.webp" type="image/webp" />
-  <img src="/assets/posts/201908/jekyll2.jpg" alt="side drawer" />
+  <source srcset="/assets/posts/201908/jekyll2.webp" type="image/webp" />
 </picture>
 
 こんな感じで、サイドバーにnav-link付け足したい。

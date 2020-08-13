@@ -54,7 +54,6 @@ end
 
 <picture>
   <source srcSet="/assets/posts/201905/cebu3.webp" type="image/webp">
-  <img src="/assets/posts/201905/cebu3.png" alt="table realtion">
 </picture>
 
 
@@ -210,7 +209,6 @@ Studentsのshowページの、前回までの状態
 
 <picture>
   <source srcSet="/assets/posts/201903/student2.webp" type="image/webp">
-  <img src="/assets/posts/201903/student2.jpg" alt="student show">
 </picture>
 
 ### 生徒データと関連付けするときは
@@ -420,12 +418,10 @@ end
 
 <picture>
   <source srcSet="/assets/posts/201903/student3.webp" type="image/webp">
-  <img src="/assets/posts/201903/student3.jpg" alt="exam result index">
 </picture>
 
 <picture>
   <source srcSet="/assets/posts/201903/student4.webp" type="image/webp">
-  <img src="/assets/posts/201903/student4.jpg" alt="exam new">
 </picture>
 
 ## ページャの導入(kaminari)
@@ -468,7 +464,6 @@ viewを編集
 
 <picture>
   <source srcSet="/assets/posts/201903/student5.webp" type="image/webp">
-  <img src="/assets/posts/201903/student5.jpg" alt="pagination">
 </picture>
 
 ### ExamResultのindexページ編集

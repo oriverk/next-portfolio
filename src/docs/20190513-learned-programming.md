@@ -4,7 +4,7 @@ update: '2019-12-12'
 author: Kawano Yudai
 title: 'プログラミングを2か月間、日本人エンジニアの下で学んできた'
 tags: [ruby]
-image: '/assets/posts/201905/cebu1.jpg'
+image: '/assets/posts/201905/cebu1.webp'
 ---
 
 from [Qiita: プログラミングを2か月間、日本人エンジニアの下でマンツーマンで学んできた](https://qiita.com/OriverK/items/30d8941c7799c9aa6dfd)
@@ -46,7 +46,6 @@ Webエンジニアに転職するために、独りで勉強を進めていま�
 
 <picture>
   <source srcSet="/assets/posts/201905/cebu1.webp" type="image/webp" />
-  <img src="/assets/posts/201905/cebu1.jpg" alt="class time schedule" />
 </picture>
 
 ##### Ruby認定試験を用いた勉強
@@ -73,12 +72,10 @@ BootstrapやDBを組み合わせ、生徒データ情報一覧になりました
 
 <picture>
   <source srcSet="/assets/posts/201905/cebu3.webp" type="image/webp" />
-  <img src="/assets/posts/201905/cebu3.png" alt="table">
 </picture>
 　
 <video autoplay loop muted playsinline>  
   <source src='/assets/posts/201905/cebu4.webm' type='video/webm'>  
-  <img src='/assets/posts/201905/cebu4.gif' alt='student data' />
 </video>  
 
 一部、Bootstrap等を適用してないページがあるが、気にしない。
@@ -107,7 +104,6 @@ BootstrapやDBを組み合わせ、生徒データ情報一覧になりました
 
 <video autoplay loop muted playsinline>  
   <source src='/assets/posts/201905/cebu6.webm' type='video/webm'>  
-  <img src='/assets/posts/201905/cebu6.gif' alt='ticket sale app' />
 </video>  
 
 JS等、追加で勉強しなければと感じています。

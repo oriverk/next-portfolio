@@ -3,7 +3,7 @@ create: '2019-03-11'
 author: Kawano Yudai
 title: 'Day 3：HTTP method, CRUD and SQL'
 tags: [http, crud, sql, restful]
-image: '/assets/posts/201903/http1.jpg'
+image: '/assets/posts/201903/http1.webp'
 ---
 
 from [Qiita: HTTPメソッドとCRUDとSQL](https://qiita.com/OriverK/items/19b9e0113fe22afb3017)
@@ -12,7 +12,6 @@ from [Qiita: HTTPメソッドとCRUDとSQL](https://qiita.com/OriverK/items/19b9
 
 <picture>
   <source srcSet="/assets/posts/201903/http1.webp" type="image/webp" />
-  <img src="/assets/posts/201903/http1.jpg" alt="https method" />
 </picture>
 
 1. ブラウザでURLにアクセスして、DNSサーバーにIPを問い合わせ、DNSサーバーがIPを返す
