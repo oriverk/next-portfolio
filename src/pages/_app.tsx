@@ -3,8 +3,18 @@ import Head from 'next/head'
 import { AppProps } from 'next/app'
 import * as gtag from '../lib/gtag'
 
+type Theme = 'light' | 'dark'
+
 export default function MyApp({ Component, pageProps }: AppProps) {
   Router.events.on('routeChangeComplete', (url: string) => gtag.pageview(url))
+
+  // let localTheme: Theme
+  // if (localStorage) {
+  //   localTheme = window.localStorage.getItem('theme') === 'dark' ? 'dark' : 'light'
+  // } else {
+  //   localTheme = window.matchMedia('(prefers-color-schema: dark)') ? 'dark' : 'light'
+  // }
+
 
   return (
     <>

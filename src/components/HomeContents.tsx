@@ -80,6 +80,23 @@ section {
 }
 `
 
+export const HogeTop: React.FC<Props> = ({ openSearch }) => {
+  return (
+    <>
+      <section id='top'>
+        <div className='topWrapper'>
+          <div className='title'>
+            <h1 className='topTitle'>Kawano Yudai</h1>
+            <h2 className='sub'>B.Agr.</h2>
+              <HomeIcons openSearch={openSearch} />
+          </div>
+        </div>
+      </section>
+      <style jsx>{style}</style>
+    </>
+  )
+}
+
 export const Top: React.FC<Props> = ({ openSearch }) => {
   return (
     <>
