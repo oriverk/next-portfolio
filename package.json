@@ -15,23 +15,23 @@
     "analyze": "ANALYZE=true next build"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^10.0.7",
-    "algoliasearch": "^4.3.0",
-    "date-fns": "^2.13.0",
-    "gray-matter": "^4.0.2",
+    "@next/bundle-analyzer": "^10.2.3",
+    "algoliasearch": "^4.9.1",
+    "date-fns": "^2.22.1",
+    "gray-matter": "^4.0.3",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
-    "next": "^10.0.8-canary.9",
+    "next": "^10.2.4-canary.2",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.6.2",
-    "next-pwa": "^5.0.5",
-    "react": "^17.0.1",
-    "react-dom": "17.0.1",
+    "next-pwa": "^5.2.21",
+    "react": "^17.0.2",
+    "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
-    "react-instantsearch-dom": "^6.10.0",
+    "react-instantsearch-dom": "^6.11.0",
     "remark": "^13.0.0",
     "remark-autolink-headings": "^6.0.1",
-    "remark-breaks": "^2.0.1",
+    "remark-breaks": "^2.0.2",
     "remark-highlight.js": "^6.0.0",
     "remark-html": "^13.0.1",
     "remark-html-katex": "^3.0.0",
@@ -44,12 +44,12 @@
     "webp-loader": "^0.6.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.31",
-    "@types/react": "^17.0.2",
-    "@types/react-instantsearch-dom": "^6.3.0",
-    "dotenv": "^8.2.0",
-    "sharp": "^0.27.2",
-    "typescript": "^4.2.2",
-    "webpack": "^5.24.2"
+    "@types/node": "^15.9.0",
+    "@types/react": "^17.0.9",
+    "@types/react-instantsearch-dom": "^6.10.0",
+    "dotenv": "^10.0.0",
+    "sharp": "^0.28.3",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1"
   }
 }
